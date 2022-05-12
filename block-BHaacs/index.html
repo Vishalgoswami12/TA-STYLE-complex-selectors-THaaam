@@ -1,0 +1,258 @@
+<!-- - Create a responsive layout according to the design shown below.
+
+#### Large Screen view(Above 768px)
+
+![Complex Selectors Assignment](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/complex-selectors/assignment-1.png)
+
+#### Small Screen view(Below 768px)
+
+Figure out the best possible view for the small screens.
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper.
+
+- Pay attention to the codes, your code quality matters a lot.
+
+- Try to implement the layout as exactly as it has been provided in the design.
+
+- Pay attention to minor things like spacing, alignment, size, etc.
+
+- Use any inter(https://fonts.google.com/specimen/Inter?query=inter) font-family for the layout.
+
+- Once you are done with the assignment connect with the mentor and get the code reviewed. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Selector</title>
+    <script src="https://kit.fontawesome.com/cec8cacc51.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <article class="header">
+    <header class="flex">
+        <h2 class="title">Trackl</h2>
+        <div>
+        <a class="anchor" href="#">Features</a>
+        <a class="anchor" href="#">Pricing</a>
+        <a class="anchor" href="#">About</a>
+        <a class="anchor" href="#">Help</a>
+        </div>
+    </header>
+    <div class="track-font">
+    <h2>Track the Learning</h2>
+    <h2>Process Schedule</h2>
+    <button class="trial-btn">Get 30 days trial</button>
+   </div>
+<img class="hero-img"src="./assets/hero.png" >
+</article>
+    <main>
+        <section class="form-section">
+            <div class="flex">
+            <div class="inline">
+                <img src="./assets/pdf.png" height="25px">
+                <p class="pdf">PDF File</p>
+            </div>
+            <div class="inline">
+                <img src="./assets/word.png" height="25px">
+                <p class="pdf">World File</p>
+            </div>
+            <div class="inline">
+                <img src="./assets/image.png" height="25px">
+                <p class="pdf">Image File</p>
+            </div>
+            <div class="inline">
+                <img src="./assets/video.png" height="25px">
+                <p class="pdf">Video File</p>
+            </div>
+            </div>
+            <hr></hr>
+        </section>
+        <section class="learn-sect">
+            <div class="flex">
+            <div class="learn-width">
+                <h2 class="learn-head">Monitor Your Learning And Improve it</h2>
+                <p class="learn-para"> I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. </p>
+                <button class="learn-btn">Learn More</button>
+            </div>
+            <img src="./assets/learning-graph.png" width="40%">
+            </div>
+        </section>
+        <!-- weekly section -->
+
+        <section class="learn-sect">
+            <h2 class="week-head">Weekly Score</h2>
+            <table id="element">
+                <tr>
+                    <th>Days</th>
+                    <th>Course</th>
+                    <th>Score(0-100)</th>
+                    <th>Hour Spent</th>
+                </tr>
+
+                <tr>
+                    <td>Monday</td>
+                    <td>Product Design</td>
+                    <td>40</td>
+                    <td>2 Hour 30 Min</td>
+                </tr>
+
+                <tr>
+                    <td>Tuesday</td>
+                    <td>Product Design</td>
+                    <td>20</td>
+                    <td>3 Hour 20 Min</td>
+                </tr>
+
+                <tr>
+                    <td>Wednesday</td>
+                    <td>Data Science</td>
+                    <td>20</td>
+                    <td>1 Hour 30 Min</td>
+                </tr>
+
+                <tr>
+                    <td>Thursday</td>
+                    <td>UI Design</td>
+                    <td>30</td>
+                    <td>2 Hour 20 Min</td>
+                </tr>
+
+                <tr>
+                    <td>Friday</td>
+                    <td>UX Design</td>
+                    <td>30</td>
+                    <td>2 Hour 30 Min</td>
+                </tr>
+
+                <tr>
+                    <td>Saturday</td>
+                    <td>Data Science</td>
+                    <td>50</td>
+                    <td>2 Hour 40 Min</td>
+                </tr>
+
+                <tr>
+                    <td>Sunday</td>
+                    <td>HTML & CSS</td>
+                    <td>70</td>
+                    <td>3 Hour 30 Min</td>
+                </tr>
+            </table>
+        </section>
+        <!-- join section -->
+        <section class="join-section">
+            <h2  class="join-section">Join Us And Let's study <br> With Your Friends</h2>
+            <div class="inline tog">
+                <span class="span">Monday</span>
+                <div class="toogle">
+                    <div class="tog-btn">1</div>
+                </div>
+                <span class="span">Yearly</span>
+            </div>
+            <div class="box-inline">
+            <div class="basic">
+                <h2 class="basic-head">Basic</h2>
+                <p class="basic-para">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+                <p class="dollar">48</p>
+                <hr>
+                <div class="inline logo">
+                    <img src="./assets/tick.png">
+                    <p class="p-font">50 Courses a day </p>
+                </div>
+                <div class="inline logo">
+                    <img src="./assets/tick.png">
+                    <p class="p-font">4 forums a month </p>
+                </div>
+                <div class="inline logo">
+                    <img src="./assets/tick.png">
+                    <p class="p-font">16 Chapter a day </p>
+                </div>
+                <div class="inline logo">
+                    <img src="./assets/cross.png">
+                    <p class="p-font">Private lesson once a week </p>
+                </div>
+                <div class="inline logo">
+                    <img src="./assets/cross.png">
+                    <p class="p-font">Get weekly reward</p>
+                </div>
+                <div class="center">
+                <button class="basic-btn">Get Started</button>
+                </div>
+            </div>
+            <div class="basic">
+                <h2 class="basic-head">Most Popular</h2>
+                <p class="basic-para">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+                <p class="dollar">58</p>
+                <hr>
+                <div class="inline logo">
+                    <img src="./assets/tick.png">
+                    <p class="p-font">50 Courses a day </p>
+                </div>
+                <div class="inline logo">
+                    <img src="./assets/tick.png">
+                    <p class="p-font">4 forums a month </p>
+                </div>
+                <div class="inline logo">
+                    <img src="./assets/tick.png">
+                    <p class="p-font">16 Chapter a day </p>
+                </div>
+                <div class="inline logo">
+                    <img src="./assets/tick.png">
+                    <p class="p-font">Private lesson once a week </p>
+                </div>
+                <div class="inline logo">
+                    <img src="./assets/tick.png">
+                    <p class="p-font">Get weekly reward</p>
+                </div>
+                <div class="center">
+                <button class="back-btn">Get Started</button>
+                </div>
+            </div>
+            </div>
+          </section> 
+          <!-- trial section -->
+          <section class="trial">
+              <div class="design-btn">
+                <h2 class="trial-head">Start Your 30Days trial</h2>
+                <button class="trial-btn">Get Started</button>
+            </div>
+          </section>
+    </main>
+    <!-- footer section -->
+    <footer class="flex">
+        <div class="foot-width">
+        <h2 class="foot-head">Trackl</h2>
+        <p class="foot-para">Far far away,behind the wordmountains,far from the</p>
+        <i class="fa-brands fa-facebook icon"></i>
+        <i class="fa-brands fa-twitter-square icon-color"></i>
+        <i class="fa-brands fa-instagram-square icon-color"></i>
+        </div>
+        <div>
+        <h3 class="foot-head">Features</h3>
+        <p class="foot-para">Calender</p>
+        <p class="foot-para">Forum</p>
+        <p class="foot-para">Messanger</p>
+        <p class="foot-para">Schedule</p>
+
+        </div>
+        <div>
+            <h3 class="foot-head">Support</h3>
+            <p class="foot-para">About us</p>
+            <p class="foot-para">Career</p>
+            <p class="foot-para">Faq's</p>
+            <p class="foot-para">Sequirty</p>
+            </div>
+            <div>
+                <h3 class="foot-head">Contact</h3>
+                <p class="foot-para">hello@trackl.io</p>
+                <p class="foot-para">(+00)000 000 00</p>
+                </div>
+    </footer>
+   </body>
+</html>
